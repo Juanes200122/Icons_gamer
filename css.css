@@ -1,0 +1,80 @@
+body, .iconss, .iconss p {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin-top: 10%;
+}
+
+.iconss {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.iconss p {
+    margin-top: 0.5%;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    box-shadow: 2px 4px 8px #7b7b7b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1, .p2, .p3, .p4, .p5 {
+    transform: translateY(-10px);
+    box-shadow: 2px 4px 8px;
+    animation: bounce 2s infinite;
+}
+
+.p1 {
+    background-color: #9bc848;
+    animation-delay: 1s;
+}
+
+.p2 {
+    background-color: #959595;
+    animation-delay: 1.5s;
+}
+
+.p3 {
+    background-color: #0062ff;
+    animation-delay: 2s;
+}
+
+.p4 {
+    background-color: #ff0000;
+    animation-delay: 2.5s;
+}
+
+.p5 {
+    background-color: #14a9ff;
+    animation-delay: 8s;
+}
+
+.container_parra p {
+    color: #f4f4f4;
+    background-color: #bcbcbc;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.container_parra p:nth-child(1) {
+    color: #39ace7;
+    font-family: 'Russo One', sans-serif;
+}
+
+.container_parra p:nth-child(2) {
+    color: #3f3f3f;
+    font-family: 'Russo One', sans-serif;
+}
